@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: chocolate;
+        }
+        input, textarea {
+            background-color: bisque;
+        }
+    </style>
+    <title>Praticando Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Contato</legend>
+
+            <label for="name">Nome</label>
+            <br>
+            <input id="name" type="text" name="name">
+            <br>
+            <br>
+            <label for="email">E-mail</label>
+            <br>
+            <input id="email" type="email" name="email">
+            <br>
+            <br>
+            <label for="message">Mensagem</label>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" wrap="on"></textarea>
+            <br>
+            <br>
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
