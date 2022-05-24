@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+button, div.modal-wrapper > div{
+    font-size: 25px;
+}
+
+body{
+    height: 100vh;
+    background-color: #f3e8ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 150px;
+    height: 80px;
+    background-color: #7e22ce;
+    color: #fff;
+    border-radius: 5px;
+    padding-block: 2px;
+    padding-inline: 4px;
+}
+
+div.modal-wrapper{
+    position: fixed;
+    background-color: #6b7280;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div.modal-wrapper > div{
+    padding: 8px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div.invisible{
+    visibility: hidden;
+}
